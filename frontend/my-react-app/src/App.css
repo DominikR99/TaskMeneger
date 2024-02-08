@@ -1,0 +1,33 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: hidden; /* Ukryj pionowe przewijanie */
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.square {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin-top: 10px;
+  background-color: #ddddddcf;
+}
+
+.add_task_modal {
+  margin-left: 10px;
+}

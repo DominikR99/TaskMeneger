@@ -1,0 +1,106 @@
+.task {
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.task_content_container {
+    margin-top: 150px;
+    margin-left: 70px;
+    max-height: 500px; 
+    overflow-y: auto; 
+    padding-right: 10px;
+    width: 78%;
+}
+
+.task_content_wrapper {
+    position: fixed;
+    width: 75%;
+}
+
+.task_content {
+    background-color: #F4F3F3;
+    border-radius: 5px;
+    padding-left: 20px;
+    display: flex;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Change scrollbar color */
+.task_content_container::-webkit-scrollbar {
+    width: 12px; /* Set your desired width */
+}
+
+.task_content_container::-webkit-scrollbar-thumb {
+    background-color: #2e2e2e; /* Set your desired thumb color */
+    border-radius: 10px;
+}
+
+.task_content_container::-webkit-scrollbar-track {
+    background-color: #c2c2c2; /* Set your desired track color */
+}
+
+.member {
+    font-weight: 700;
+    color: #4d4c4c;
+    font-size: small;
+    margin-bottom: 4px;
+}
+
+.task_description {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.date {
+    font-size: 22px;
+    margin-left: auto;
+}
+
+.check_btn {
+    border: 2px solid #323232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+}
+
+.check_btn:hover {
+    background-color: rgb(79, 209, 79);
+    border: 2px solid rgb(79, 209, 79);
+    transform: scale(1.1);
+}
+
+.check_btn:not(:hover) {
+    background-color: transparent;
+    transform: scale(1);
+}
+
+.delete_btn {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.delete_btn:hover {
+    background-color: rgb(209, 79, 79);
+    border: 2px solid rgb(209, 79, 79);
+    transform: scale(1.1);
+}
+
+.delete_btn:not(:hover) {
+    background-color: transparent;
+    transform: scale(1);
+}
